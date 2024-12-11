@@ -1,0 +1,21 @@
+{% extends "blog/base.html" %}
+{% block content %}
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1 class="display-4">About</h1>
+            <p class="lead">This blog is proudly maintained by Shrey Bhardwaj.</p>
+            <hr class="my-4">
+            <p class="text-muted">
+                Special thanks to Corey Schafer for his incredible tutorials that inspired this project. 
+                Check out his YouTube channel: 
+                <a href="https://www.youtube.com/@coreyms" target="_blank">Corey Schafer</a>.
+            </p>
+            <p>
+                Interested in contributing to our blog or collaborating with us? We’d love to hear from you! 
+                Check out our <a href="{% url 'contact' %}">Contact Page</a> and drop us a message.
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock content %}
